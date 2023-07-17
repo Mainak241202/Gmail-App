@@ -7,7 +7,7 @@ import {
   TextField,
   Button,
 } from "@mui/material";
-import { Close, DeleteOutline } from "@mui/icons-material";
+import { Close, DeleteOutline, CreateOutlined } from "@mui/icons-material";
 import { useState } from "react";
 import useApi from "../hooks/useApi";
 import { API_URLS } from "../services/api.urls";
@@ -140,11 +140,10 @@ const ComposeMail = ({ openDialog, setOpenDialog }) => {
           name="to"
           onChange={(e) => onvalueChange(e)}
         />
-        <InputBase
-          placeholder="Subject"
-          name="subject"
-          onChange={(e) => onvalueChange(e)}
-        />
+        <Box>
+          <InputBase name="subject" onChange={(e) => onvalueChange(e)} />
+          <CreateOutlined />
+        </Box>
       </SubWrapper>
       <TextField
         multiline

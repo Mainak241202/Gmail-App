@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[847],{7847:function(e,n,l){l.r(n);l(2791);var r=l(4554),s=l(890),c=l(7689),t=l(184);n.default=function(){var e=(0,c.lk)();return console.log(e),(0,t.jsx)(r.Z,{style:{},children:(0,t.jsx)(s.Z,{children:"There was an error loading this page."})})}}}]);
-//# sourceMappingURL=847.0fc54cef.chunk.js.map
